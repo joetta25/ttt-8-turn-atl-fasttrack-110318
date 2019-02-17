@@ -23,7 +23,7 @@ def turn(board)
 end
 
 loop do
-turn(board)
+  puts "Please enter 1-9:"
 while counter < 9
       input = gets.chomp
       ans = gets.chomp.to_i
