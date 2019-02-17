@@ -24,9 +24,8 @@ end
 
 loop do
   puts "Please enter 1-9:"
-while counter < 9
-      input = gets.chomp
-      ans = gets.chomp.to_i
+      input = gets.chomp.to_i
+  while counter < 9
 if valid_move(board, index)
     move(board,index,token = "X")
     counter += 1
