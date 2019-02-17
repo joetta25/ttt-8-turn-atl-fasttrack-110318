@@ -23,12 +23,14 @@ def turn(board)
 end
 
 loop do
-puts "Please enter 1-9:"
-      input = gets.chomp.to_i
+  puts "Please enter 1-9:"
+  input = gets.chomp.to_i
   while counter < 9
-if valid_move(board, index)
-    counter += 1
-    break
-else
-    invalid move
+    if valid_move(board, index)
+        counter += 1
+        break
+    else
+        invalid move
+    end
+  end
 end
