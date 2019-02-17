@@ -30,6 +30,5 @@ if valid_move(board, index)
     counter += 1
     break
 else
-    invalid move 
-  end
+    invalid move
 end
