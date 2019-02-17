@@ -21,9 +21,9 @@ end
 def turn(board)
   loop do
 while counter < 9
-  puts "Please enter 1-9:"
-  input = gets.chomp
-  ans = gets.chomp.to_i
+      puts "Please enter 1-9:"
+      input = gets.chomp
+      ans = gets.chomp.to_i
 if valid_move(board, index)
     move(board,index,token = "X")
     counter += 1
