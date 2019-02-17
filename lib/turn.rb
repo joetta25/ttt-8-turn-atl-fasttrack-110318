@@ -27,10 +27,9 @@ puts "Please enter 1-9:"
       input = gets.chomp.to_i
   while counter < 9
 if valid_move(board, index)
-    move(board,index,token = "X")
     counter += 1
     break
 else
-    puts "Please enter 1-9:"
+    invalid move 
   end
 end
